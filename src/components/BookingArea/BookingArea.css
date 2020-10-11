@@ -1,0 +1,19 @@
+/* Booking Form Css */
+.bookingForm{
+    background-color: white;
+    border-radius: 5px;
+}
+.bookingForm form{
+    padding: 30px 15px;
+}
+.bookingForm form select,.bookingForm form input, .bookingForm form select option{
+    background-color: #f2f2f2!important;
+    color: black!important;
+    font-weight: 500;
+}
+.bookingForm form button{
+    width: 100%;
+    margin-top: 20px;
+    color: black!important;
+    font-weight: 500;
+}

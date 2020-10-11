@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.App {
+    background: url(../../images/Rectangle1.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed; */
+    min-height: 100%;
+    /* width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+.homeContent{
+    padding: 85px 0;
+}
+
+/* Header css */
+.homePage .topMenu a, .homePage button, .bookPage .topMenu a, .bookPage button{
+    color: white!important;
+}
+.homePage .logo{
+    filter: brightness(10%) invert(1);
+}
+.homePage .loginButton{
+    color: black!important;
+    font-weight: 500;
+}
+
+/* Place select in Home page */
+.selectedPlaceDetail{
+    color: white;
+}
+.selectedPlaceDetail h1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 70px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.selectedPlaceDetail button{
+    color: black!important;
+    font-weight: 500;
+}
+
+/* Place Card */
+.homeCard{
+    border-radius: 20px!important;
+    color: white;
+}
+.homeCard img{
+    border-radius: 20px!important;
+    height: 280px;
+}
+
+.homeCard :hover{
+    cursor: pointer;
+}
+.card-img-overlay {
+    background: linear-gradient(0.12deg, #000000 0.1%, rgba(0, 0, 0, 0) 69.96%);
+    border-radius: 20px!important;
+}
+.card-title {
+    padding-top: 120%;
+    text-transform: uppercase;
+    font-family: Bebas Neue;
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 22px!important;
+    line-height: 38px!important;
+}
+
+/* Place Slider */
+.owl-nav{
+    text-align: left !important;
+    margin-left: 20px;
+    margin-top: 50px!important;
+}
+button.owl-prev, button.owl-next{
+    background-color: white!important;
+    color: black!important;
+    width: 47px;
+    height: 47px;
+    border-radius: 50%!important;
+}
+.owl-dots{
+    display: none;
+}

@@ -1,0 +1,41 @@
+/* Normal Css */
+body{
+    background: white;
+}
+.profileContent{
+    padding: 30px 0;
+    border-top: 1px solid #D1D1D1;
+}
+.profilePage .searchForm{
+    display: none!important;
+}
+
+/* Single Hotel CSS */
+.singleHotel{
+    margin: 40px 0;
+}
+.singleHotel img{
+    width: 40%;
+    margin-right: 4%;
+    border-radius: 5px;
+}
+.singleHotelDetails{
+    width: 55%;
+}
+.singleHotelDetails p{
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.singleHotelDetails ul{
+    padding: 0;
+}
+.singleHotelDetails ul li{
+    display: inline;
+    float: left;
+    padding-right: 12px;
+}
+.singleHotelDetails ul li img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 8px;
+}

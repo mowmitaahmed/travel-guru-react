@@ -1,0 +1,15 @@
+/* Booking Page Css */
+/* body {
+    background-color: #8564042b;
+    color: #ffffff;
+    background-image: url(../../images/Rectangle1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+} */
+.bookPage .topMenu a, .profilePage .topMenu a{
+    color: black!important;
+}
+.bookPage .logo, .profilePage .logo{
+    filter: brightness(2%);
+}

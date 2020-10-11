@@ -1,0 +1,54 @@
+body{
+    background: white;
+}
+.formContent{
+    padding: 20px 0;
+}
+.loginPage .searchForm{
+    display: none!important;
+}
+
+/* Login Form */
+.loginForm{
+    padding: 30px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.loginForm p, .checkbox_input,.loginForm a{
+    font-size: 16px !important;
+}
+.loginForm input{
+    color: black!important;
+    font-weight: 500;
+    font-size: 17px !important;
+}
+.textDecoration{
+    text-decoration: underline;
+    text-decoration-color: #F9A51A!important;
+}
+
+/* Social Media Login */
+ul li img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+ul li{
+    cursor: pointer;
+    list-style: none;
+}
+ul{
+    text-align: center;
+}
+.extraLogin {
+    padding: 0;
+}
+
+.extraLogin li{
+    padding: 10px 0;
+    border: 1px solid gray;
+    border-radius: 50px 50px;
+    margin-bottom: 8px;
+}

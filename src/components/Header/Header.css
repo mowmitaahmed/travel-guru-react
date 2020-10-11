@@ -1,0 +1,26 @@
+/* Logo */
+.logo{
+   width: 120.26px;
+   height: 56px;
+   margin-right: 5px;
+}
+/* Menu Link */
+.topMenu{
+    color: white;
+}
+.topMenu a{
+    font-weight: 600!important;
+    color: #000!important;
+    font-size: 16px !important;
+}
+/* Search Form */
+.searchForm{
+    background-color: rgba(255, 255, 255, 0.2)!important;
+    border: 1px solid #FFFFFF!important;
+    box-sizing: border-box!important;
+    border-radius: 5px!important;
+    color: #FFFFFF!important;
+    width: 300px!important;
+    height: 44px!important;   
+    position: relative;
+}

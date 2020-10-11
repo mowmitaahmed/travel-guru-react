@@ -1,0 +1,7 @@
+/* Registration Page Css */
+body{
+    background: white;
+}
+.registrationPage .searchForm{
+    display: none!important;
+}
